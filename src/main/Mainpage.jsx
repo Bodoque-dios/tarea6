@@ -1,24 +1,24 @@
 import React from "react";
 
-import "./style.css"
+import "../index.css"
 function Index() {
     return (
         <>
-            <nav>
+            <nav className=" bg-black flex justify-between text-white h-16 items-center">
                 <div>
-                    <a className="inicio" href="/../index.html">Inicio</a>
+                    <a className="text-xl font-semibold p-3 rounded hover:bg-white hover:text-black" href="/">Inicio</a>
                 </div>
                 <div>
 
-                    <a className="name" href="/pipe/pipe.html">Felipe 1</a>
-                    <a className="name" href="/mati/mati.html">Matías 🚀</a>
-                    <a className="name" href="pedro/pedro.html">Pedro</a>
+                    <a className="text-xl font-semibold p-3 rounded hover:bg-white hover:text-black" href="/pipe/pipe.html">Felipe 1</a>
+                    <a className="text-xl font-semibold p-3 rounded hover:bg-white hover:text-black" href="/mati">Matías 🚀</a>
+                    <a className="text-xl font-semibold p-3 rounded hover:bg-white hover:text-black" href="pedro/pedro.html">Pedro</a>
                 </div>
             </nav>
 
             <main>
-                <h1>SOPAIPILLA</h1>
-                <div className="hero-container">
+                <h1 className="text-6xl font-semibold text-center mt-10">SOPAIPILLA</h1>
+                <div className="flex justify-center align-center flex-row m-4 ">
                     <div className="hero-info-container">
                         <div className="main-container">
                             <h3>Integrantes</h3>
@@ -38,8 +38,8 @@ function Index() {
                             </ul>
                         </div>
                     </div>
-                    <div className="proyectos-container">
-                        <h2>Proyectos anteriores
+                    <div className="flex justify-center align-center flex-col m-2">
+                        <h2 className="flex flex-row justify-center text-2xl p-4">Proyectos anteriores
                             <a href="https://peaceful-bohr-acebc4.netlify.app" >
                                 <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-external-link" width="24" height="24" viewBox="0 0 24 24" strokeWidth="2.5" stroke="#2c3e50" fill="none" strokeLinecap="round" strokeLinejoin="round">
                                     <path stroke="none" d="M0 0h24v24H0z" fill="none" />
@@ -49,7 +49,7 @@ function Index() {
                                 </svg>
                             </a>
                         </h2>
-                        <iframe src="https://peaceful-bohr-acebc4.netlify.app/" frameBorder="0"></iframe>
+                        <iframe className="border-solid border-2 border-slate-200 shadow-xl rounded w-[500px] h-[300px]" src="https://peaceful-bohr-acebc4.netlify.app/" frameBorder="0"></iframe>
                     </div>
 
                 </div>
