@@ -1,35 +1,26 @@
 import React from "react";
 
 import "../index.css"
+import NavBar from "../components/NavBar";
+import Footer from "../components/Footer";
 function Index() {
     return (
         <>
-            <nav className=" bg-black flex justify-between text-white h-16 items-center">
-                <div>
-                    <a className="text-xl font-semibold p-3 rounded hover:bg-white hover:text-black" href="/">Inicio</a>
-                </div>
-                <div>
-
-                    <a className="text-xl font-semibold p-3 rounded hover:bg-white hover:text-black" href="/pipe/pipe.html">Felipe 1</a>
-                    <a className="text-xl font-semibold p-3 rounded hover:bg-white hover:text-black" href="/mati">Matías 🚀</a>
-                    <a className="text-xl font-semibold p-3 rounded hover:bg-white hover:text-black" href="pedro/pedro.html">Pedro</a>
-                </div>
-            </nav>
-
-            <main>
-                <h1 className="text-6xl font-semibold text-center mt-10">SOPAIPILLA</h1>
-                <div className="flex justify-center align-center flex-row m-4 ">
-                    <div className="hero-info-container">
-                        <div className="main-container">
-                            <h3>Integrantes</h3>
-                            <ul>
+            <NavBar />
+            <main className="bg-gray-200 p-5">
+                <h1 className="text-6xl font-semibold text-center">SOPAIPILLA</h1>
+                <div className="flex justify-center align-center flex-row m-4 gap-5 ">
+                    <div className="flex flex-col gap-5 items-center p-2">
+                        <div className="">
+                            <h3 className="font-bold">Integrantes</h3>
+                            <ul className="list-disc">
                                 <li>Felipe Meneses</li>
                                 <li>Matías Olea</li>
                                 <li>Pedro Pizarro</li>
                             </ul>
                         </div>
                         <div className="main-container">
-                            <h3>
+                            <h3 className="font-bold">
                                 Objetivos
                             </h3>
                             <ul>
@@ -82,9 +73,7 @@ function Index() {
                 <img src="https://cataas.com/cat" alt="gato"/>
             </div>
             </main >
-            <footer>
-                <a className="button" href="https://bit.ly/3BlS71b">Rick</a>
-            </footer>
+           <Footer />
 
 
 
