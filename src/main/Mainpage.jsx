@@ -9,7 +9,7 @@ function Index() {
             <NavBar />
             <main className="bg-gray-200 p-5">
                 <h1 className="text-6xl font-semibold text-center">SOPAIPILLA</h1>
-                <div className="flex justify-center align-center flex-row m-4 mb-6 gap-5 ">
+                <div className="flex flex-col md:flex-row justify-center align-center flex-row m-4 mb-6 gap-5 ">
                     <div className="flex flex-col gap-5 justify-center items-center p-2">
                         <div className="">
                             <h3 className="font-bold">Integrantes</h3>
@@ -40,29 +40,29 @@ function Index() {
                                 </svg>
                             </a>
                         </h2>
-                        <iframe className="border-solid border-2 border-slate-200 shadow-xl rounded w-[500px] h-[300px]" src="https://peaceful-bohr-acebc4.netlify.app/" frameBorder="0"></iframe>
+                        <iframe className=" hidden md:block border-solid border-2 border-slate-200 shadow-xl rounded w-[500px] h-[300px]" src="https://peaceful-bohr-acebc4.netlify.app/" frameBorder="0"></iframe>
                     </div>
 
                 </div>
                 <div className="bg-gray-700 text-white font-semibold rounded-md p-5 flex flex-col items-center justify-center gap-2">
                     <h2 className="text-3xl">Nosotros</h2>
-                    <div className="flex gap-5 w-full justify-around">
-                        <div className="photo">
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-10 w-full justify-around">
+                        <div className="flex flex-col justify-center items-center gap-2 bg-gray-900 p-5 rounded-md">
                             <div className="photo-container">
                                 <img src="/images/hqdefault.jpg" alt="" />
                             </div>
                             <h3>Felipiño</h3>
                         </div>
-                        <div className="photo">
-                            <div className="photo-container">
-                                <img src="/images/31minutos5.webp" alt="" />
+                        <div className="flex flex-col justify-center items-center gap-2 bg-gray-900 p-5 rounded-md">
+                            <div className="object-cover rounded-md max-w-xs h-auto w-4/5">
+                                <img src="https://pbs.twimg.com/ext_tw_video_thumb/1355281561810309120/pu/img/xWa13YKsoc8FwXAd.jpg" alt="" />
                             </div>
-                            <h3>Matías Bodoque</h3>
+                            <h3>Mario Hugo Olea</h3>
                         </div>
                         <div className="flex flex-col justify-center items-center gap-2 bg-gray-900 p-5 rounded-md">
                             <div className="rounded-md ">
                                 <img 
-                                    className="object-cover rounded-md max-w-xs h-auto" 
+                                    className="object-cover rounded-md max-w-1/2 md:max-w-xs h-auto" 
                                     src="https://universidadpepizarro.blob.core.windows.net/tarea2/WWI.png" 
                                     alt="pedro"/>
                             </div>

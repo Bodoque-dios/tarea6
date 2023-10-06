@@ -2,10 +2,7 @@ import React from "react";
 
 export default function Mati() {
 	return <>
-
-
-<body>
-    <audio loop autoplay="true">
+    <audio loop autoPlay>
         <source src="https://www.myinstants.com/media/sounds/magicmamaliga.mp3" type="audio/mpeg"/>
     </audio>
     <nav className=" flex justify-between h-16 items-center font-bold text-xl bg-gray-400">
@@ -19,7 +16,6 @@ export default function Mati() {
     <header>
         <div className="borat bg-gray-300 pt-4">
             <div className="">
-            	<h1 className="text-5xl text-center absolute left-1/2 -translate-x-1/2 bottom-0 font-bold ">My name Borat Sagdiyev</h1>
                 <img className="w-4/5 m-auto rounded-3xl" src="https://fotografias.antena3.com/clipping/cmsimages01/2020/09/09/401A4DD3-236E-4281-99E1-FE60CBA0FE36/98.jpg?crop=1621,912,x0,y0&width=1900&height=1069&optimize=high&format=webply" alt="BORAT"/>
             </div>
         </div>
@@ -28,7 +24,7 @@ export default function Mati() {
     <main className="bg-gray-300">
         <section id="about">
             <h2 className="text-3xl font-semibold text-center p-2">About Me</h2>
-            <p className="text-xl font-semibold text-center p-2">My profession, work as a television reporter for Kazakhstan.</p>
+            <p className="text-xl font-semibold text-center p-2">My name Borat Sagdiyev My profession, work as a television reporter for Kazakhstan.</p>
         </section>
 		<div className="bg-gray-400 h-1 w-4/5 m-auto rounded " ></div>
         <section id="hobbies"  className="w-1/3 m-auto">    
@@ -56,7 +52,6 @@ export default function Mati() {
     <footer className="bg-gray-400 h-12 flex justify-center ">
         <p className="text-lg">If you need to contact us, send electronic mail like modern Kazakhstan! Email: <a>verynice@boratfansite.com</a></p>
     </footer>
-    </body>
     
 	</>;
 }
