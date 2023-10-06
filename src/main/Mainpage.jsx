@@ -9,8 +9,8 @@ function Index() {
             <NavBar />
             <main className="bg-gray-200 p-5">
                 <h1 className="text-6xl font-semibold text-center">SOPAIPILLA</h1>
-                <div className="flex justify-center align-center flex-row m-4 gap-5 ">
-                    <div className="flex flex-col gap-5 items-center p-2">
+                <div className="flex justify-center align-center flex-row m-4 mb-6 gap-5 ">
+                    <div className="flex flex-col gap-5 justify-center items-center p-2">
                         <div className="">
                             <h3 className="font-bold">Integrantes</h3>
                             <ul className="list-disc">
@@ -44,11 +44,13 @@ function Index() {
                     </div>
 
                 </div>
-                <div className="nosotros">
-                    <h2>Nostros</h2>
-                    <div className="photos-container">
+                <div className="bg-gray-700 text-white font-semibold rounded-md p-5 flex flex-col items-center justify-center gap-2">
+                    <h2 className="text-3xl">Nosotros</h2>
+                    <div className="flex gap-5 w-full justify-around">
                         <div className="photo">
-                            <img src="/images/hqdefault.jpg" alt="" />
+                            <div className="photo-container">
+                                <img src="/images/hqdefault.jpg" alt="" />
+                            </div>
                             <h3>Felipiño</h3>
                         </div>
                         <div className="photo">
@@ -57,9 +59,12 @@ function Index() {
                             </div>
                             <h3>Matías Bodoque</h3>
                         </div>
-                        <div className="photo">
-                            <div className="photo-container">
-                                <img src="/images/WWI.png" alt="" />
+                        <div className="flex flex-col justify-center items-center gap-2 bg-gray-900 p-5 rounded-md">
+                            <div className="rounded-md ">
+                                <img 
+                                    className="object-cover rounded-md max-w-xs h-auto" 
+                                    src="https://universidadpepizarro.blob.core.windows.net/tarea2/WWI.png" 
+                                    alt="pedro"/>
                             </div>
                             <h3>Pedro III</h3>
                         </div>
@@ -68,9 +73,13 @@ function Index() {
                 </div>
             
 
-            <div className="gato">
-                <h2> Gato Aleatorio</h2>
-                <img src="https://cataas.com/cat" alt="gato"/>
+            <div className="mx-auto flex flex-col justify-center items-center">
+                <h2 className="text-3xl font-bold my-5"> Gato Aleatorio</h2>
+                <div className="max-w-2xl">
+                    <img 
+                        className="object-contain rounded-lg"
+                        src="https://cataas.com/cat" alt="gato"/>
+                </div>
             </div>
             </main >
            <Footer />
