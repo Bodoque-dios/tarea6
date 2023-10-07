@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from './main/Mainpage';
 import Mati from './mati/App';
 import Pedro from "./pedro/pedro";
+import Pipe from "./pipe/pipe";
 
 function App() {
     return (
@@ -11,6 +12,8 @@ function App() {
         <Route index element={<Index />}/>
         <Route path="/mati" element={<Mati />} />
         <Route path="/pedro" element={<Pedro />} />
+        <Route path="/pipe" element={<Pipe />} />
+        
         
         </Routes>
       </BrowserRouter>

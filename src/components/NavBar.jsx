@@ -8,7 +8,7 @@ export default function NavBar() {
             <a className="text-xl font-semibold p-2 rounded hover:bg-white hover:text-black" href="/">Inicio</a>
         </div>
         <div>
-            <a className="text-xl font-semibold p-2 rounded hover:bg-white hover:text-black" href="/pipe/pipe.html">Felipe 1</a>
+            <a className="text-xl font-semibold p-2 rounded hover:bg-white hover:text-black" href="/pipe">Felipe 1</a>
             <a className="text-xl font-semibold p-2 rounded hover:bg-white hover:text-black" href="/mati">Matías 🚀</a>
             <a className="text-xl font-semibold p-2 rounded hover:bg-white hover:text-black" href="/pedro">Pedro</a>
         </div>

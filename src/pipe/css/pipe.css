@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Courier New", monospace;
+    
+}
+nav{
+    background-color: #333;
+    margin: 0;
+    padding: 10px;
+}
+nav a{
+    color: #fff;
+    background-color: black;
+}
+
+header{
+    background-color: rgb(193, 193, 193);
+    margin: 0;
+    padding: 10px 0;
+    text-align: center;
+
+}
+.Volver{
+    background-color: #333;
+    color: grey;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+}
+.Volver:hover{
+    background-color: #2d04786b;
+    color: #2d04786b;
+}
+
+.contenedor{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+}
+.contenedor figure{
+    position: relative;
+    height: 350px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 15 25px rgba(0,0,0,0.50);
+    cursor: pointer;
+}
+.contenedor figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 0.7s ease-out;
+}
+.contenedor figure .imagen{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.50);
+    transition: all 0.7s ease-out;
+    opacity: 0;
+    visibility: hidden;
+
+
+}
+.contenedor figure:hover > .imagen{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+.about-text-container{
+    text-align: left;
+}
+main{
+    background-color: grey;
+    margin-left: 50px;
+    margin-right: 50px;
+    align-self: center;
+}
+.boton-edad{
+    border-radius: 10px;
+    background-color: rgb(97, 97, 97);
+    border-color: black;
+    padding: 5px;
+
+
+
+}
+.contenedores-edad{
+    display: flex;
+
+}
+.real-time-clock{
+    
+    margin: 10px;
+    padding: 10px;
+    border-width: 1px;
+    border-color: black;
+}
+.contenedor-hobbies{
+    padding: 10px;
+}

@@ -49,9 +49,9 @@ function Index() {
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-10 w-full justify-around">
                         <div className="flex flex-col justify-center items-center gap-2 bg-gray-900 p-5 rounded-md">
                             <div className="photo-container">
-                                <img src="/images/hqdefault.jpg" alt="" />
+                                <img src="https://cdn.alfabetajuega.com/alfabetajuega/2023/09/pepinillo-rick.1694985279.7038.jpg?width=1200" alt="" />
                             </div>
-                            <h3>Felipiño</h3>
+                            <h3>Pipenillo</h3>
                         </div>
                         <div className="flex flex-col justify-center items-center gap-2 bg-gray-900 p-5 rounded-md">
                             <div className="object-cover rounded-md max-w-xs h-auto w-4/5">
